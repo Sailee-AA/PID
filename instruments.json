@@ -1,0 +1,22 @@
+{
+  "instruments": [
+    {
+      "instrument_id": "TSAH 3611 16",
+      "type": "TSAH",
+      "geometry": { "center_x": 4983, "center_y": 5259, "width": 263, "height": 316 },
+      "connections": [
+        { "instrument_id": "TSDH 3611 16", "match_distance": 240.0 }
+      ]
+    },
+    {
+      "instrument_id": "TSDH 3611 16",
+      "type": "TSDH",
+      "geometry": { "center_x": 4970, "center_y": 5019, "width": 289, "height": 312 },
+      "connections": [
+        { "instrument_id": "TSAH 3611 16", "match_distance": 240.0 },
+        { "instrument_id": "TI 3611 16", "match_distance": 240.0 },
+        { "instrument_id": "TIT 3611 16", "match_distance": 240.0 }
+      ]
+    }
+  ]
+}
