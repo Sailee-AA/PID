@@ -1,0 +1,155 @@
+{
+  "instruments": [
+    {
+      "instrument_id": "PI-3611-31",
+      "type": "PI",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "31",
+      "geometry": {
+        "x": 2283,
+        "y": 3423,
+        "radius": 71
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_2.png",
+      "ocr_text_raw": "PI-3611-31",
+      "ocr_text_norm": "PI-3611-31",
+      "is_instrument": true,
+      "connections": []
+    },
+    {
+      "instrument_id": "TI-3611-32",
+      "type": "TI",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "32",
+      "geometry": {
+        "x": 4810,
+        "y": 4461,
+        "radius": 73
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_3.png",
+      "ocr_text_raw": "TI-3611-32",
+      "ocr_text_norm": "TI-3611-32",
+      "is_instrument": true,
+      "connections": []
+    },
+    {
+      "instrument_id": "TIT-3611-16",
+      "type": "TIT",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "16",
+      "geometry": {
+        "x": 4717,
+        "y": 5019,
+        "radius": 69
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_1.png",
+      "ocr_text_raw": "TIT-3611-16",
+      "ocr_text_norm": "TIT-3611-16",
+      "is_instrument": true,
+      "connections": [
+        {
+          "instrument_id": "TSDH-3611-16",
+          "match_distance": 0.0
+        }
+      ]
+    },
+    {
+      "instrument_id": "FIT-3611-04",
+      "type": "FIT",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "04",
+      "geometry": {
+        "x": 5217,
+        "y": 2740,
+        "radius": 72
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_5.png",
+      "ocr_text_raw": "FIT-3611-04",
+      "ocr_text_norm": "FIT-3611-04",
+      "is_instrument": true,
+      "connections": [
+        {
+          "instrument_id": "FI-3611-04",
+          "match_distance": 0.0
+        }
+      ]
+    },
+    {
+      "instrument_id": "TIT-3611-15",
+      "type": "TIT",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "15",
+      "geometry": {
+        "x": 4401,
+        "y": 5192,
+        "radius": 69
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_11.png",
+      "ocr_text_raw": "TIT-3611-15",
+      "ocr_text_norm": "TIT-3611-15",
+      "is_instrument": true,
+      "connections": [
+        {
+          "instrument_id": "TI-3611-15",
+          "match_distance": 0.0
+        }
+      ]
+    },
+    {
+      "instrument_id": "LIT-3611-17",
+      "type": "LIT",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "17",
+      "geometry": {
+        "x": 6433,
+        "y": 4198,
+        "radius": 68
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_9.png",
+      "ocr_text_raw": "LI-3611-17",
+      "ocr_text_norm": "LIT-3611-17",
+      "is_instrument": true,
+      "connections": [
+        {
+          "instrument_id": "LI-3611-17",
+          "match_distance": 0.0
+        }
+      ]
+    },
+    {
+      "instrument_id": "LIT-3611-16",
+      "type": "LIT",
+      "category": "circle",
+      "loop_number": "3611",
+      "channel": "16",
+      "geometry": {
+        "x": 4984,
+        "y": 4751,
+        "radius": 68
+      },
+      "crop_path": "D:\\OneDrive - Aligned Automation Services Private Limited\\Desktop\\pid-yokogawa\\symbols_detection\\output_New\\crops_1\\circle_13.png",
+      "ocr_text_raw": "TI-3611-16",
+      "ocr_text_norm": "LIT-3611-16",
+      "is_instrument": true,
+      "connections": [
+        {
+          "instrument_id": "LSDL-3611-16",
+          "match_distance": 0.0
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_instruments": 7,
+    "with_connections": 5,
+    "without_connections": 2,
+    "loop_numbers": ["3611"],
+    "instrument_types": ["PI", "TI", "TIT", "FIT", "LIT"]
+  }
+}
