@@ -1,40 +1,169 @@
 {
-  "pipes": [
+  "connections": [
     {
-      "id": "P232",
-      "tag": "* 4\"-GL-4561-011440-X-PP",
-      "geometry": { "x1": 1829, "y1": 5010, "x2": 2021, "y2": 5010 },
-      "length": 192.0,
-      "connections": [
-        { "instrument_id": "TIT 3611 15", "match_distance": 1.5 },
-        { "instrument_id": "TIT 3611 16", "match_distance": 1.5 }
-      ]
+      "pipe": {
+        "id": "P232",
+        "tag": "* 4\"-GL-4561-011440-X-PP",
+        "x1": 1829.0,
+        "y1": 5010.0,
+        "x2": 2021.0,
+        "y2": 5010.0,
+        "length": 192.0
+      },
+      "instrument": {
+        "id": "TIT 3611 15, TIT 3611 16"
+      },
+      "match_distance": 1.5
     },
     {
-      "id": "P30",
-      "tag": "* 2\"-PG-5174-011440-X-PP",
-      "geometry": { "x1": 1783, "y1": 3963, "x2": 3099, "y2": 3963 },
-      "length": 1316.0,
-      "connections": [
-        { "instrument_id": "LG 3611 07", "match_distance": 0.0 },
-        { "instrument_id": "LIT 3611 17", "match_distance": 0.0 }
-      ]
+      "pipe": {
+        "id": "P30",
+        "tag": "* 2\"-PG-5174-011440-X-PP",
+        "x1": 1783.0,
+        "y1": 3963.0,
+        "x2": 3099.0,
+        "y2": 3963.0,
+        "length": 1316.0
+      },
+      "instrument": {
+        "id": "LG 3611 07, LIT 3611 17"
+      },
+      "match_distance": 0.0
     },
     {
-      "id": "P457",
-      "tag": "* 2\"-PG-5102-011440-X-N",
-      "geometry": { "x1": 6144, "y1": 3584, "x2": 6145, "y2": 3519 },
-      "length": 65.01,
-      "connections": [
-        { "instrument_id": "FIT 3611 04", "match_distance": 12.25 }
-      ]
+      "pipe": {
+        "id": "P457",
+        "tag": "* 2\"-PG-5102-011440-X-N",
+        "x1": 6144.0,
+        "y1": 3584.0,
+        "x2": 6145.0,
+        "y2": 3519.0,
+        "length": 65.01
+      },
+      "instrument": {
+        "id": "FIT 3611 04"
+      },
+      "match_distance": 12.25
+    },
+    {
+      "pipe": {
+        "id": "P426",
+        "tag": "* 2\"-GL-4559-011440-X-PP",
+        "x1": 4458.0,
+        "y1": 5231.0,
+        "x2": 4521.0,
+        "y2": 5232.0,
+        "length": 63.01
+      },
+      "instrument": {
+        "id": "LIT 3611 16"
+      },
+      "match_distance": 1.38
+    },
+    {
+      "pipe": {
+        "id": "P273",
+        "tag": "* 6\"-PG-5109-011440-W-PP",
+        "x1": 690.0,
+        "y1": 3015.0,
+        "x2": 690.0,
+        "y2": 2846.0,
+        "length": 169.0
+      },
+      "instrument": {
+        "id": "V-3611-05"
+      },
+      "match_distance": 8.5
+    },
+    {
+      "pipe": {
+        "id": "P45",
+        "tag": "* 2\"-GL-4555-011440-X-PP",
+        "x1": 5697.0,
+        "y1": 2742.0,
+        "x2": 6920.0,
+        "y2": 2742.0,
+        "length": 1223.0
+      },
+      "instrument": {
+        "id": "V-3611-05"
+      },
+      "match_distance": 2.0
+    },
+    {
+      "pipe": {
+        "id": "P524",
+        "tag": "* 2\"-GL-4562-011440-X-N",
+        "x1": 3003.0,
+        "y1": 2734.0,
+        "x2": 3003.0,
+        "y2": 2639.0,
+        "length": 95.0
+      },
+      "instrument": {
+        "id": "V-3611-05"
+      },
+      "match_distance": 2.0
+    },
+    {
+      "pipe": {
+        "id": "P29",
+        "tag": "* 4\"-GL-4506-011440-W-PP",
+        "x1": 1953.0,
+        "y1": 5682.0,
+        "x2": 3080.0,
+        "y2": 5682.0,
+        "length": 1127.0
+      },
+      "instrument": {
+        "id": "V-3611-05"
+      },
+      "match_distance": 16.0
+    },
+    {
+      "pipe": {
+        "id": "P509",
+        "tag": "* 2\"-GL-4464-011440-X-N",
+        "x1": 1655.0,
+        "y1": 3963.0,
+        "x2": 1716.0,
+        "y2": 3962.0,
+        "length": 61.01
+      },
+      "instrument": {
+        "id": "GLYCOL FLUSH DRUM"
+      },
+      "match_distance": 19.57
+    },
+    {
+      "pipe": {
+        "id": "P505",
+        "tag": "* 2\"-GL-4588-031440-X-PP",
+        "x1": 1674.0,
+        "y1": 2510.0,
+        "x2": 1674.0,
+        "y2": 2405.0,
+        "length": 105.0
+      },
+      "instrument": {
+        "id": "FCV 3611 03"
+      },
+      "match_distance": 2.0
+    },
+    {
+      "pipe": {
+        "id": "P548",
+        "tag": "* 2\"-GL-4560-011440-X-N",
+        "x1": 1926.0,
+        "y1": 2790.0,
+        "x2": 1927.0,
+        "y2": 2723.0,
+        "length": 67.01
+      },
+      "instrument": {
+        "id": "LG 3611 07"
+      },
+      "match_distance": 14.09
     }
-  ],
-  "instruments": [
-    { "instrument_id": "TIT 3611 15", "type": "TIT" },
-    { "instrument_id": "TIT 3611 16", "type": "TIT" },
-    { "instrument_id": "LG 3611 07", "type": "LG" },
-    { "instrument_id": "LIT 3611 17", "type": "LIT" },
-    { "instrument_id": "FIT 3611 04", "type": "FIT" }
   ]
 }
