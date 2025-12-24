@@ -16,17 +16,25 @@ PI-3611-08,PI-3611-08,square,instrument,PIT361108,circle,240
 PI-3611-11,PI-3611-11,square,instrument,PIT361111,circle,240
 PI-3611-10,PI-3611-10,square,instrument,PSDL361110,square,240
 PI-361112,PI-361112,square,instrument,PSDH361112,square,240
-P910,"* 4""-GL-4570-031440-X-PP",pipe,process,DPIT-3611-15,circle,0.53
-P910,"* 4""-GL-4570-031440-X-PP",pipe,process,PI-3611-32,circle,0.53
-P910,"* 4""-GL-4570-031440-X-PP",pipe,process,PIT-3611-07,circle,0.53
-P715,"* 2""-GL-4576-031440-X-PP",pipe,process,PIT-3611-08,circle,1.5
-P715,"* 2""-GL-4576-031440-X-PP",pipe,process,PIT-3611-09,circle,1.5
-P280,"* 1""-Z-4950-013461-Y-N",pipe,process,FIT-3611-08,circle,0.5
-P370,"* 2""-GL-4585-031440-X-PP",pipe,process,PIT-3611-11,circle,12.5
-P370,"* 2""-GL-4585-031440-X-PP",pipe,process,PIT-3611-12,circle,12.5
-P232,"* 1""-Z-4951-013461-Y-N",pipe,process,FIT-3611-07,circle,12.5
-P291,"* 4""-GL-4580-031440-X-PP",pipe,process,DPIT-3611-16,circle,0.5
-P291,"* 4""-GL-4580-031440-X-PP",pipe,process,PI-3611-33,circle,0.5
-P291,"* 4""-GL-4580-031440-X-PP",pipe,process,PIT-3611-10,circle,0.5
-P738,"* 2""-GL-4589-031440-X-PP",pipe,process,FIT-3611-02,circle,4.5
-P738,"* 2""-GL-4589-031440-X-PP",pipe,process,FIT-3611-03,circle,4.5
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process_line,DPIT-3611-15,circle,0.53
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process_line,PI-3611-32,circle,0.53
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process_line,PIT-3611-07,circle,0.53
+P715,"* 2""-GL-4576-031440-X-PP",pipe,process_line,PIT-3611-08,circle,1.5
+P715,"* 2""-GL-4576-031440-X-PP",pipe,process_line,PIT-3611-09,circle,1.5
+P280,"* 1""-Z-4950-013461-Y-N",pipe,control_line,FIT-3611-08,circle,0.5
+P370,"* 2""-GL-4585-031440-X-PP",pipe,process_line,PIT-3611-11,circle,12.5
+P370,"* 2""-GL-4585-031440-X-PP",pipe,process_line,PIT-3611-12,circle,12.5
+P232,"* 1""-Z-4951-013461-Y-N",pipe,control_line,FIT-3611-07,circle,12.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process_line,DPIT-3611-16,circle,0.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process_line,PI-3611-33,circle,0.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process_line,PIT-3611-10,circle,0.5
+P738,"* 2""-GL-4589-031440-X-PP",pipe,process_line,FIT-3611-02,circle,4.5
+P738,"* 2""-GL-4589-031440-X-PP",pipe,process_line,FIT-3611-03,circle,4.5
+FI-3611-02,FI-3611-02,square,instrument,FSDL361102,square,240
+FSAL-3611-02,FSAL-3611-02,square,instrument,FSDL361102,square,240
+PSAL-3611-10,PSAL-3611-10,square,instrument,PSDL361110,square,240
+PIT-361112,PIT-361112,circle,instrument,PSDH361112,square,240
+PSAH-361112,PSAH-361112,square,instrument,PSDH361112,square,240
+PSAH-3611-09,PSAH-3611-09,square,instrument,PSDH361109,square,240
+PIT-3611-09,PIT-3611-09,circle,instrument,PSDH361109,square,240
+PSAL-3611-07,PSAL-3611-07,square,instrument,PSDL361107,square,240
