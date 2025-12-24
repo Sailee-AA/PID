@@ -1,0 +1,15 @@
+from_id,from_tag,from_type,connection_type,to_tag,to_type,distance
+P232,"* 4""-GL-4561-011440-X-PP",pipe,process,TIT-3611-15,circle,1.5
+P232,"* 4""-GL-4561-011440-X-PP",pipe,process,TIT-3611-16,circle,1.5
+P30,"* 2""-PG-5174-011440-X-PP",pipe,process,LG-3611-07,circle,0
+P30,"* 2""-PG-5174-011440-X-PP",pipe,process,LIT-3611-17,circle,0
+P457,"* 2""-PG-5102-011440-X-N",pipe,process,FIT-3611-04,circle,12.25
+P524,"* 2""-GL-4588-031440-X-PP",pipe,process,FCV-3611-03,circle,2
+TI-3611-16,TI-3611-16,square,instrument,TSDH-3611-16,square,240
+TIT-3611-16,TIT-3611-16,circle,instrument,TSDH-3611-16,square,240
+TIT-3611-15,TIT-3611-15,circle,instrument,TI-3611-15,square,240
+LI-3611-17,LI-3611-17,square,instrument,LIT-3611-17,circle,240
+LI-3611-16,LI-3611-16,square,instrument,LSDL-3611-16,square,240
+FIT-3611-04,FIT-3611-04,circle,instrument,FI-3611-04,square,240
+LIT-3611-17,LIT-3611-17,circle,instrument,LI-3611-16,square,240
+LIT-3611-16,LIT-3611-16,circle,instrument,LSDL-3611-16,square,240

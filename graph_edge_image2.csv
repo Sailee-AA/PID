@@ -1,0 +1,32 @@
+from_id,from_tag,from_type,connection_type,to_tag,to_type,distance
+PIT-3611-07,PIT-3611-07,circle,instrument,PSDL361107,square,240
+FIT-3611-02,FIT-3611-02,circle,instrument,FSDL361102,square,240
+FIT-3611-03,FIT-3611-03,circle,instrument,FIC361103,square,240
+PIT-3611-08,PIT-3611-08,circle,instrument,PI361108,square,240
+PIT-3611-10,PIT-3611-10,circle,instrument,PSDL361110,square,240
+PIT-3611-11,PIT-3611-11,circle,instrument,PI361111,square,240
+PIT-3611-08,PIT-3611-08,circle,instrument,PI361108,square,240
+PIT-3611-11,PIT-3611-11,circle,instrument,PI361111,square,240
+PIT-3611-10,PIT-3611-10,circle,instrument,PSDL361110,square,240
+DPIT-3611-16,DPIT-3611-16,circle,instrument,DPI361116,square,240
+PIT-3611-11,PIT-3611-11,circle,instrument,PI361111,square,240
+PI-3611-09,PI-3611-09,square,instrument,PSDH361109,square,240
+PI-3611-07,PI-3611-07,square,instrument,PSDL361107,square,240
+PI-3611-08,PI-3611-08,square,instrument,PIT361108,circle,240
+PI-3611-11,PI-3611-11,square,instrument,PIT361111,circle,240
+PI-3611-10,PI-3611-10,square,instrument,PSDL361110,square,240
+PI-361112,PI-361112,square,instrument,PSDH361112,square,240
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process,DPIT-3611-15,circle,0.53
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process,PI-3611-32,circle,0.53
+P910,"* 4""-GL-4570-031440-X-PP",pipe,process,PIT-3611-07,circle,0.53
+P715,"* 2""-GL-4576-031440-X-PP",pipe,process,PIT-3611-08,circle,1.5
+P715,"* 2""-GL-4576-031440-X-PP",pipe,process,PIT-3611-09,circle,1.5
+P280,"* 1""-Z-4950-013461-Y-N",pipe,process,FIT-3611-08,circle,0.5
+P370,"* 2""-GL-4585-031440-X-PP",pipe,process,PIT-3611-11,circle,12.5
+P370,"* 2""-GL-4585-031440-X-PP",pipe,process,PIT-3611-12,circle,12.5
+P232,"* 1""-Z-4951-013461-Y-N",pipe,process,FIT-3611-07,circle,12.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process,DPIT-3611-16,circle,0.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process,PI-3611-33,circle,0.5
+P291,"* 4""-GL-4580-031440-X-PP",pipe,process,PIT-3611-10,circle,0.5
+P738,"* 2""-GL-4589-031440-X-PP",pipe,process,FIT-3611-02,circle,4.5
+P738,"* 2""-GL-4589-031440-X-PP",pipe,process,FIT-3611-03,circle,4.5
